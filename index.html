@@ -8,28 +8,30 @@
 
 <head>
   <title>Bday Collector</title>
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="main.css" />
+
 </head>
 
 <body>
+<script src="main.js"></script>
   <div id="wrapper">
     <h1>Find your Bday Bitch</h1>
     <form>
       <p>
-        <input type="text" placeholder="First Name">
+        <input type="text" id="fname" placeholder="First Name">
       </p>
       <p>
-        <input type="date">
+        <input type="date" id="bday">
       </p>
       <p>
-        <input type="submit" onclick="return calZodiac()">
+        <button type="button" id="myButton" onclick="calZodiac()"> Submit</button>
       </p>
     </form>
     <div id="displayMsg">
 
     </div>
   </div>
-  <script src="js/main.js"></script>
+  
 </body>
 
 </html>

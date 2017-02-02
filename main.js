@@ -10,7 +10,7 @@ function calZodiac(){
 	console.log('whichDayNdx is ' + whichDayNdx);
 
 	var outputArea = document.getElementById('displayMsg');
-	outputArea.innerHTML = 'Hello ' + firstName + ' you were born on a ' + WeekDays[whcihDayNdx];
+	outputArea.innerHTML = 'Hello ' + firstName + ' you were born on a ' + WeekDays[whichDayNdx];
 
 	var whichMonth = birthDayObj.getMonth();
 	console.log('whichMonth is ' + whichMonth);
@@ -28,9 +28,9 @@ function calZodiac(){
 	}
 
 	var outputArea = document.getElementById('displayMsg');
-	outputArea.innerHTML = 'Hello '+ firstName + ' you were born on a ' + WeekDays[whichDayNdx] + ' your zodiac sign is ' + AstroSign;
+	outputArea.innerHTML += 'Hello '+ firstName + ' you were born on a ' + WeekDays[whichDayNdx] + ' your zodiac sign is ' + AstroSign;
 	alert(outputArea);
 	
 
-	return false;
+	//return false;
 }
