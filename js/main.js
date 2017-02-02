@@ -22,6 +22,13 @@ function calZodiac(){
 	whichDayOfMonth ++;
 
 	var AstroSign;
+
+	if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
+		AstroSign = "Cap";
+	}
+
+	var outputArea = document.getElementById('displayMsg');
+	outputArea.innerHTML = 'Hello '+ firstName + ' you were born on a ' + WeekDays[whichDayNdx] + ' your zodiac sign is ' + AstroSign;
 	
 
 	return false;
