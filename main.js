@@ -1,6 +1,6 @@
 var firstName;
 var birthDayObj;
-var WeekDays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+var WeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
 function calZodiac(){
 	firstName = document.getElementById('fname').value;
@@ -25,30 +25,30 @@ function calZodiac(){
 	var AstroSign;
 
 	if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
-		AstroSign = "Cap";
+		AstroSign = "Capricorn";
 	}
 	else if ((whichMonth == 1 && whichDayOfMonth >= 21) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
-    AstroSign = "Aqu";
+    AstroSign = "Aquarius";
   } else if((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
-    AstroSign = "Pis";
+    AstroSign = "Pisces";
   } else if((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 20)) {
-    AstroSign = "Ari";
+    AstroSign = "Aries";
   } else if((whichMonth == 4 && whichDayOfMonth >= 21) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
-    AstroSign = "Tau";
+    AstroSign = "Taurus";
   } else if((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 20)) {
-    AstroSign = "Gem";
+    AstroSign = "Gemini";
   } else if((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
-    AstroSign = "Can";
+    AstroSign = "Cancer";
   } else if((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 23)) {
     AstroSign = "Leo";
   } else if((whichMonth == 8 && whichDayOfMonth >= 24) || (whichMonth == 9 && whichDayOfMonth <= 23)) {
-    AstroSign = "Vir";
+    AstroSign = "Virgo";
   } else if((whichMonth == 9 && whichDayOfMonth >= 24) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
-    AstroSign = "Lib";
+    AstroSign = "Libra";
   } else if((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 22)) {
-    AstroSign = "Sco";
+    AstroSign = "Scorpio";
   } else if((whichMonth == 11 && whichDayOfMonth >= 23) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
-    AstroSign = "Sag";
+    AstroSign = "Sagittarius";
 	}
 	else
 	{
