@@ -4,6 +4,7 @@ var WeekDays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
 function calZodiac(){
 	firstName = document.getElementById('fname').value;
+	lastName = document.getElementById('lname').value;
 	birthDayObj = new Date(document.getElementById('bday').value);
 
 	var whichDayNdx = birthDayObj.getDay();
@@ -56,7 +57,7 @@ function calZodiac(){
 
 
 	var outputArea = document.getElementById('displayMsg');
-	outputArea.innerHTML += 'Hello '+ firstName + ' you were born on a ' + WeekDays[whichDayNdx] + ' your zodiac sign is ' + AstroSign;
+	outputArea.innerHTML = 'Hello '+ firstName + lastName ' you were born on a ' + WeekDays[whichDayNdx] + ' your zodiac sign is ' + AstroSign;
 	
 	
 
