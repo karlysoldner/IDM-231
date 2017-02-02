@@ -49,7 +49,7 @@ function calZodiac(){
     AstroSign = "Sco";
   } else if((whichMonth == 11 && whichDayOfMonth >= 23) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
     AstroSign = "Sag";
-}
+	}
 	else
 	{
 		AstroSign = "Woops! Error";
@@ -57,7 +57,7 @@ function calZodiac(){
 
 
 	var outputArea = document.getElementById('displayMsg');
-	outputArea.innerHTML = 'Hello '+ firstName + lastName ' you were born on a ' + WeekDays[whichDayNdx] + ' your zodiac sign is ' + AstroSign;
+	outputArea.innerHTML = 'Hello '+ firstName + lastName +' you were born on a ' + WeekDays[whichDayNdx] + ' your zodiac sign is ' + AstroSign;
 	
 	
 
