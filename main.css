@@ -8,6 +8,7 @@ body {
   padding: 0px;
   background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-30.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
