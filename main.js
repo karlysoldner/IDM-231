@@ -19,7 +19,7 @@ function calZodiac(){
 	var whichDayOfMonth = birthDayObj.getDate();
 	console.log('whichDayOfMonth is ' + whichDayOfMonth);
 /* age attempt */
-	var age = Date.now() - birthDayObj / 1000 / 60 / 60 / 24 / 365;
+	var age = (Date.now() - birthDayObj) / 1000 / 60 / 60 / 24 / 365;
 		age= Math.floor(age)
 	console.log('age is' + age);
 
@@ -61,7 +61,7 @@ function calZodiac(){
 
 
 	var outputArea = document.getElementById('displayMsg');
-	outputArea.innerHTML = 'Hello '+ firstName + ' ' + lastName + ' you are ' + age + 'years old and' +' you were born on a ' + WeekDays[whichDayNdx] + '.' + ' Your zodiac sign is ' + AstroSign;
+	outputArea.innerHTML = 'Hello '+ firstName + ' ' + lastName + ' you are ' + age + ' years old and' +' you were born on a ' + WeekDays[whichDayNdx] + '.' + ' Your zodiac sign is ' + AstroSign;
 	
 	
 
