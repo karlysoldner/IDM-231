@@ -1,12 +1,12 @@
-/* CSS for adding content example */
-
-@import url(//fonts.googleapis.com/css?family=Open+Sans:800italic);
-
+@font-face {
+    font-family: 'Shadows Into Light', cursive;
+    src: url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+  }
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Shadows Into Light', cursive;
   margin: 0px;
   padding: 0px;
-  background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-30.jpg);
+  background-image: url(nebula.png);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -22,6 +22,6 @@ div.transbox {
   margin: 30px;
   background-color: #ffffff;
   border: 1px ; /*no color, keeps things in line*/
-  background: rgba(255, 255, 255, 0.8); /*  white background with 80% opacity */
+  background: rgba(255, 255, 255, 0.5); /*  white background with 50% opacity */
   height: auto;
   }
