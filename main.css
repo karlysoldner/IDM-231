@@ -10,6 +10,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  color: rgba(12, 8, 9, 1);
 }
 
 #wrapper {
@@ -25,3 +26,14 @@ div.transbox {
   background: rgba(255, 255, 255, 0.5); /*  white background with 50% opacity */
   height: auto;
   }
+
+/*color scheme for reference
+
+RGB 
+black: rgba(12, 8, 9, 1);
+blue: rgba(53, 159, 237, 1);
+orange: rgba(223, 110, 62, 1);
+red: rgba(123, 44, 42, 1);
+darkred: rgba(59, 18, 25, 1);
+
+*/
