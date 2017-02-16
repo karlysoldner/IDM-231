@@ -13,10 +13,15 @@ body {
   color: rgba(223, 110, 62, 1);
 }
 
+p {
+     text-shadow: 0 0 3px #FF0000;
+}
 
 input {
   padding: 12px;
-
+  background:rgba(123, 44, 42, .5);
+  color: rgba(223, 110, 62, 1);
+;
 }
 
 /*color scheme for reference
