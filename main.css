@@ -16,6 +16,10 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-size: 50px;
+}
+
 input {
   padding: 12px;
   background:rgba(123, 44, 42, .5);
@@ -25,7 +29,7 @@ input {
 .box {
   display: flex;
   justify-content: space-around;
-  
+
 }
 
 /*color scheme for reference
