@@ -42,6 +42,10 @@ input {
   justify-content: space-around;
   
 }
+
+#displayMsg {
+  height: 100px;
+}
 /*color scheme for reference
 
 RGB 
