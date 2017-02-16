@@ -23,8 +23,11 @@ input {
 }
 
 .box {
-  float: left;
+  display: flex;
+  justify-content: space-around;
+  
 }
+
 /*color scheme for reference
 
 RGB 
