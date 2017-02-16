@@ -32,6 +32,11 @@ input {
 
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 /*color scheme for reference
 
 RGB 
