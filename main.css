@@ -12,6 +12,10 @@ body {
   color: rgba(223, 110, 62, 1);
 }
 
+h1 {
+  text-align: center;
+}
+
 input {
   padding: 12px;
   background:rgba(123, 44, 42, .5);
