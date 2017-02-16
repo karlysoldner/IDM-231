@@ -10,22 +10,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  color: rgba(12, 8, 9, 1);
+  color: rgba(223, 110, 62, 1);
 }
 
-#wrapper {
-  max-width: 520px;
-  margin: 10px auto;
-}
 
-div.transbox {
-  overflow: auto;
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px ; /*no color, keeps things in line*/
-  background: rgba(255, 255, 255, 0.5); /*  white background with 50% opacity */
-  height: auto;
-  }
+input {
+  padding: 12px;
+
+}
 
 /*color scheme for reference
 

@@ -63,26 +63,6 @@ function calZodiac(){
 	var outputArea = document.getElementById('displayMsg');
 	outputArea.innerHTML = 'Hello '+ firstName + ' ' + lastName + '!' + ' You are ' + age + ' years old and' +' you were born on a ' + WeekDays[whichDayNdx] + '.' + ' Your zodiac sign is ' + AstroSign + '.';
 	
-	//candle attempt //
-	/* msg += '<p>CANDLES: ';
-	for (lp = 0; lp < age; lp++) {
-		console.log(lp);
-		msg += 'candle '; 
-	}
 	
-msg += '</p';
-outputArea.innerHTML = msg;
-*/
-
-//different attempt 
-/* msg += '<p>candles: ';
-car lp = 0;
-while(lp < age)}
-msg += 'i ';
-lp++;
-}
-msg += '</p>';
-outputArea.innerHTML = msg;
-*/
 	return false;
 }
