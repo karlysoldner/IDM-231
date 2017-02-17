@@ -59,7 +59,7 @@ function calZodiac(){
 		AstroSign = "Error";
 	}
 
-
+ 
 	var outputArea = document.getElementById('displayMsg');
 	outputArea.innerHTML = 'Hello '+ firstName + ' ' + lastName + '!' + ' You are ' + age + ' years old and' +' you were born on a ' + WeekDays[whichDayNdx] + '.' + ' Your zodiac sign is ' + AstroSign + '.';
 	
