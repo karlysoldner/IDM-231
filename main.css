@@ -14,11 +14,13 @@ body {
 
 h1 {
   text-align: center;
+  text-shadow: 0 0 3px black;
 }
 
 p {
   font-size: 3em;
   text-align: center;
+  text-shadow: 0 0 3px black;
 }
  
 input {
@@ -28,6 +30,7 @@ input {
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
   font-size: 1em;
+  text-shadow: 0 0 3px black;
 }
 
 .box {
@@ -49,6 +52,7 @@ input {
   align-items: center;
   justify-content: center;
   max-height: 50%;
+  text-shadow: 0 0 3px black;
 }
 /*color scheme for reference
 
