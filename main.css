@@ -40,14 +40,19 @@ input {
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   
+     display: flex;
+    flex-direction: column;
+
+    max-width: 68.75rem; /* 1100px */
+    margin: 0 auto;
+
 }
 
 .grid img{
-  height: 200px;
+   width: 12.5rem;
+    height: 12.5rem;
+    margin: 1rem auto;
 }
 
 #displayMsg {
@@ -60,6 +65,23 @@ input {
   font-size: 1.2em;
   margin: .5em;
 }
+
+@media screen and (min-width: 30rem)
+{
+    .grid
+    {
+        flex-direction: row;
+
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .grid img
+    {
+        margin: 1rem;
+    }
+}
+
 /*color scheme for reference
 
 RGB 
