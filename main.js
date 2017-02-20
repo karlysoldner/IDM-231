@@ -29,30 +29,30 @@ function calZodiac(){
 	var AstroSign;
 
 	if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
-		AstroSign = "Capricorn";
+		AstroSign = "Capricorn and your breakfast personality is oatmeal";
 	}
 	else if ((whichMonth == 1 && whichDayOfMonth >= 21) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
-    AstroSign = "Aquarius";
+    AstroSign = "Aquarius and your breakfast personality is pancakes";
   } else if((whichMonth == 2 && whichDayOfMonth >= 19) || (whichMonth == 3 && whichDayOfMonth <= 20)) {
-    AstroSign = "Pisces";
+    AstroSign = "Pisces and your breakfast personality is donut";
   } else if((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 20)) {
-    AstroSign = "Aries";
+    AstroSign = "Aries and your breakfast personality is bacon";
   } else if((whichMonth == 4 && whichDayOfMonth >= 21) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
-    AstroSign = "Taurus";
+    AstroSign = "Taurus and your breakfast personality is scrambled eggs";
   } else if((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 20)) {
-    AstroSign = "Gemini";
+    AstroSign = "Gemini and your breakfast personality is cereal";
   } else if((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
-    AstroSign = "Cancer";
+    AstroSign = "Cancer and your breakfast personality is french toast";
   } else if((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 23)) {
-    AstroSign = "Leo";
+    AstroSign = "Leo and your breakfast personality is pizza";
   } else if((whichMonth == 8 && whichDayOfMonth >= 24) || (whichMonth == 9 && whichDayOfMonth <= 23)) {
-    AstroSign = "Virgo";
+    AstroSign = "Virgo avocado toast and your breakfast personality is";
   } else if((whichMonth == 9 && whichDayOfMonth >= 24) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
-    AstroSign = "Libra";
+    AstroSign = "Libra and your breakfast personality is blueberry waffles";
   } else if((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 22)) {
-    AstroSign = "Scorpio";
+    AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette";
   } else if((whichMonth == 11 && whichDayOfMonth >= 23) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
-    AstroSign = "Sagittarius";
+    AstroSign = "Sagittarius and your breakfast personality is an everything bagel";
 	}
 	else
 	{
