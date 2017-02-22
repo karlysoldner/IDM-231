@@ -29,15 +29,13 @@ input {
   font-family: 'Shadows Into Light', cursive;
   font-size: 1em;
   text-shadow: 0 0 3px black;
+  float:center;
 }
 
 .box {
-  max-width: 50%;
+  max-width: 100%;
   margin-left: 1rem;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-
+  float: center;
 }
 
 
@@ -56,6 +54,7 @@ input {
     height: 9rem;
     margin: .5rem auto;
 }
+
 
 #displayMsg {
   height: 100px;
