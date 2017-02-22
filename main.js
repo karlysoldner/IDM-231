@@ -44,7 +44,7 @@ function calZodiac(){
   } else if((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
     AstroSign = "Cancer and your breakfast personality is french toast";
   } else if((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 23)) {
-    AstroSign = "Leo and your breakfast personality is pizza";
+    AstroSign = "Leo and your breakfast personality is cold leftover pizza";
   } else if((whichMonth == 8 && whichDayOfMonth >= 24) || (whichMonth == 9 && whichDayOfMonth <= 23)) {
     AstroSign = "Virgo avocado toast and your breakfast personality is";
   } else if((whichMonth == 9 && whichDayOfMonth >= 24) || (whichMonth == 10 && whichDayOfMonth <= 23)) {

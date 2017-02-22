@@ -24,7 +24,7 @@ p {
 }
  
 input {
-  padding: 12px;
+  padding: 7px;
   background: rgba(123, 44, 42, .5);
   color: rgba(223, 110, 62, 1);
   text-align: center;
@@ -34,9 +34,11 @@ input {
 }
 
 .box {
+  max-width: 50%;
+  margin-left: 1rem;
   display: flex;
   justify-content: space-around;
-
+  flex-direction: row;
 }
 
 .grid {
@@ -50,9 +52,9 @@ input {
 }
 
 .grid img{
-   width: 12.5rem;
-    height: 12.5rem;
-    margin: 1rem auto;
+   width: 9rem;
+    height: 9rem;
+    margin: .5rem auto;
 }
 
 #displayMsg {
@@ -78,7 +80,7 @@ input {
 
     .grid img
     {
-        margin: 1rem;
+        margin: .5rem;
     }
 }
 
