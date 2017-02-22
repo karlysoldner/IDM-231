@@ -42,6 +42,17 @@ input {
 
 }
 
+.right{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.right img{
+  max-width: 50%
+  height: 200px;
+}
+
 .grid {
   
      display: flex;
