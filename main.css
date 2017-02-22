@@ -4,8 +4,6 @@
   }
 body {
   font-family: 'Shadows Into Light', cursive;
-  margin: 0px;
-  padding: 0px;
   background-image: url(nebula.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,16 +40,6 @@ input {
 
 }
 
-.right{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row-reverse;
-}
-
-.right img{
-  max-width: 50%
-  height: 200px;
-}
 
 .grid {
   
