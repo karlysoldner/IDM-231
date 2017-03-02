@@ -1,15 +1,12 @@
-  @font-face {
-    font-family: 'Shadows Into Light', cursive;
-    src: url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-  }
+
+
 body {
-  font-family: 'Shadows Into Light', cursive;
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/8b/db/6d/8bdb6d1d5a3a53aaf040ba424a634ab7.jpg);
   background-size: cover;
     background-attachment: fixed;
     background-position: center;
   background-repeat: no-repeat;
-  color: rgba(223, 110, 62, 1);
+  color: #617F25;
 }
 
 div.transbox {
@@ -23,24 +20,31 @@ div.transbox {
 
 
 h1 {
-  text-align: center;
-  text-shadow: 0 0 3px black;
+  text-align: left;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  padding-left: 1rem;
 }
 
 p {
+  font-family: 'Alice', serif;
   font-size: 3em;
   text-align: center;
-  text-shadow: 0 0 3px black;
+}
+
+p.intro {
+  text-align: right;
+  font-size: 1em;
+  padding-right: 1em;
 }
  
 input {
   padding: 7px;
-  background: rgba(123, 44, 42, .5);
-  color: rgba(223, 110, 62, 1);
+  background: rgba(253, 237, 159,.5);
+  color: #617F25;
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Alice', serif;
   font-size: 1em;
-  text-shadow: 0 0 3px black;
 }
 
 .box {
