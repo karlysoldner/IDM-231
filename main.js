@@ -95,3 +95,21 @@ function calZodiac()
 	
 	return false;
 }
+function gridClickBacon()	
+{
+	var AstroSign;
+	AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
+     document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"pancakes\">";
+
+     var outputArea = document.getElementById('displayMsg');
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+function gridClickFrenchToast()	
+{
+	var AstroSign;
+    AstroSign = "Cancer and your breakfast personality is french toast. You are a complex and interesting person, without being overbearing. You're fun and sassy and know how to treat yo self.";
+    document.getElementById("results").innerHTML = "<img  src=\"frenchtoast.png\" style=\"width:200px\" alt=\"pancakes\">";
+
+     var outputArea = document.getElementById('displayMsg');
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
