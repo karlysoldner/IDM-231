@@ -113,3 +113,33 @@ function gridClickFrenchToast()
      var outputArea = document.getElementById('displayMsg');
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
+
+function gridClickOatmeal()	
+{
+	var AstroSign;
+    AstroSign = "Capricorn and your breakfast personality is oatmeal. You're ambitious and interesting but a little too responsible. Relax a little. You're never going to accomplish your goals or be a success so stop being such a try-hard and start experimenting with internet dating or party drugs or something.";
+    document.getElementById("results").innerHTML = "<img  src=\"oatmeal.png\" style=\"width:200px\" alt=\"oatmeal\">";
+
+     var outputArea = document.getElementById('displayMsg');
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
+function gridClickDonut()	
+{
+	var AstroSign;
+    AstroSign = "Pisces and your breakfast personality is a donut. You are crazy and reckless and always a good time. You understand that you only live once and are making the most of it. Try not to be too reckless or that one life you get to live might be a short one.";
+    document.getElementById("results").innerHTML = "<img  src=\"donut.png\" style=\"width:200px\" alt=\"donut\">";
+
+     var outputArea = document.getElementById('displayMsg');
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
+function gridClickPancakes()	
+{
+	var AstroSign;
+    
+    document.getElementById("results").innerHTML = "<img  src=\"pancakes.png\" style=\"width:200px\" alt=\"pancakes\">";
+    AstroSign = "Aquarius and your breakfast personality is pancakes. You're an easy-going person, but because of this some people will find you too simple. Forget them and keep doing you.";
+     var outputArea = document.getElementById('displayMsg');
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
