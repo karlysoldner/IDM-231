@@ -52,8 +52,20 @@ input {
   margin-left: 1rem;
   float: center;
 }
+.plate{
 
-
+   border: 1px solid #f00;
+  position: relative;
+  z-index: 2;
+}
+.pancake{
+  border: 1px solid #0f0;
+  position: relative;
+  z-index: 1;
+  top: -12px;
+  left: 12px;
+}
+}
 .grid {
   
      display: flex;
@@ -81,6 +93,11 @@ input {
   margin: .5em;
 }
 
+
+/* HELP */
+
+
+
 @media screen and (min-width: 30rem)
 {
     .grid
@@ -96,14 +113,3 @@ input {
         margin: .5rem;
     }
 }
-
-/*color scheme for reference
-
-RGB 
-black: rgba(12, 8, 9, 1);
-blue: rgba(53, 159, 237, 1);
-orange: rgba(223, 110, 62, 1);
-red: rgba(123, 44, 42, 1);
-darkred: rgba(59, 18, 25, 1);
-
-*/
