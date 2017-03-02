@@ -4,11 +4,23 @@
   }
 body {
   font-family: 'Shadows Into Light', cursive;
-  background-image: url(nebula.png);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/8b/db/6d/8bdb6d1d5a3a53aaf040ba424a634ab7.jpg);
   background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
   background-repeat: no-repeat;
   color: rgba(223, 110, 62, 1);
 }
+
+div.transbox {
+  overflow: auto;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px ; /*no color, keeps things in line*/
+  background: rgba(255, 255, 255, 0.8); /*  white background with 80% opacity */
+  height: auto;
+}
+
 
 h1 {
   text-align: center;
