@@ -117,7 +117,7 @@ function gridClickFrenchToast()
 function gridClickOatmeal()	
 {
 	var AstroSign;
-    AstroSign = "Capricorn and your breakfast personality is oatmeal. You're ambitious and interesting but a little too responsible. Relax a little. You're never going to accomplish your goals or be a success so stop being such a try-hard and start experimenting with internet dating or party drugs or something.";
+    AstroSign = "Capricorn and your breakfast personality is oatmeal. You're ambitious and interesting but a little too responsible. Relax a little. You're never going to accomplish your goals or be a success so stop being such a try-hard and pick up a chill hobby like camping or skiing or glassblowing";
     document.getElementById("results").innerHTML = "<img  src=\"oatmeal.png\" style=\"width:200px\" alt=\"oatmeal\">";
 
      var outputArea = document.getElementById('displayMsg');
@@ -137,9 +137,76 @@ function gridClickDonut()
 function gridClickPancakes()	
 {
 	var AstroSign;
-    
-    document.getElementById("results").innerHTML = "<img  src=\"pancakes.png\" style=\"width:200px\" alt=\"pancakes\">";
     AstroSign = "Aquarius and your breakfast personality is pancakes. You're an easy-going person, but because of this some people will find you too simple. Forget them and keep doing you.";
+    document.getElementById("results").innerHTML = "<img  src=\"pancakes.png\" style=\"width:200px\" alt=\"pancakes\">";
+    
      var outputArea = document.getElementById('displayMsg');
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
+
+function gridClickScrambledEggs()	
+{
+	var AstroSign;
+    AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable.";
+    document.getElementById("results").innerHTML = "<img  src=\"scrambledeggs.png\" style=\"width:200px\" alt=\"eggs\">";
+    
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
+function gridClickAvocadoToast()	
+{
+	var AstroSign;
+    
+    document.getElementById("results").innerHTML = "<img  src=\"avocadotoast.png\" style=\"width:200px\" alt=\"avocadotoast\">";
+    AstroSign = "Virgo and your breakfast personality is avocado toast. You are a classy and cool person. Your insta is probably strong af and I wouldn't be shocked if there was a brunch pic or two in there. Remember to pick up a book instead of a blog now and then.";
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
+function gridClickWaffle()	
+{
+	var AstroSign;
+    
+    document.getElementById("results").innerHTML = "<img  src=\"blueberrywaffles.png\" style=\"width:200px\" alt=\"waffles\">";
+    AstroSign = "Libra and your breakfast personality is blueberry waffles. You are balanced. You understand when to have fun and when to work hard. When to go running and when to pizza binge. You're adept in social situations, yet are comfortable alone. You get it. I wish I could be like you.";
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
+function gridClickCoffee()	
+{
+	var AstroSign;
+    
+    document.getElementById("results").innerHTML = "<img  src=\"coffeecigarette.png\" style=\"width:200px\" alt=\"coffee\">";
+    AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. OK. We need to talk. Yes, you are cool. Yes your art/blog/zine/photography/whatever project you're really focusing on is good. But someday you're gonna have to get a job that's not bartending or selling weed so you need to do yourself a favor and start thinking more long-term than your next chemical breakfast.";
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
+function gridClickEverythingBagel()	
+{
+	var AstroSign;
+
+	document.getElementById("results").innerHTML = "<img  src=\"everythingbagel.png\" style=\"width:200px\" alt=\"bagel\">";
+    AstroSign = "Sagittarius and your breakfast personality is an everything bagel. Lame people call you quirky, cool people call you unique, and everyone knows your are interesting. You struggle to make close friends because you don't seem to connect with people on a deep level, even after spending lots of time with them. Go out of your way to really try and like a few people. It's hard, I know, but it's worth it.";
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+    
+    
+}
+
+function gridClickCereal()	
+{
+	var AstroSign;
+    
+    document.getElementById("results").innerHTML = "<img  src=\"cereal.png\" style=\"width:200px\" alt=\"bagel\">";
+    AstroSign = "Gemini and your breakfast personality is cereal. You know that song by The Kinks called A Well Respected Man? That song is about you, but not in a bad way.";
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
+
+function gridClickPizza()	
+{
+	var AstroSign;
+    
+    document.getElementById("results").innerHTML = "<img  src=\"pizza.png\" style=\"width:200px\" alt=\"bagel\">";
+     AstroSign = "Leo and your breakfast personality is cold leftover pizza. Let's face it. You're a mess. You probably sleep way too much or not enough. And you probably are behind on a bill or two. You need to break the cycle. Pay a bill, clean your bathroom, call your mom. Go on!";
+	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
+}
+
