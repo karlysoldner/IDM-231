@@ -47,31 +47,31 @@ function calZodiac()
 
   } else if((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 20)) {
     AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
-     document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"pancakes\">";
+     document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"bacon\">";
 
   } else if((whichMonth == 4 && whichDayOfMonth >= 21) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
     AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable.";
-     document.getElementById("results").innerHTML = "<img src=\"scrambledeggs.png\" style=\"width:200px\" alt=\"pancakes\">";
+     document.getElementById("results").innerHTML = "<img src=\"scrambledeggs.png\" style=\"width:200px\" alt=\"eggs\">";
 
   } else if((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 20)) {
     AstroSign = "Gemini and your breakfast personality is cereal. You know that song by The Kinks called A Well Respected Man? That song is about you, but not in a bad way.";
-     document.getElementById("results").innerHTML = "<img src=\"cereal.png\" style=\"width:200px\" alt=\"pancakes\">";
+     document.getElementById("results").innerHTML = "<img src=\"cereal.png\" style=\"width:200px\" alt=\"cereal\">";
 
   } else if((whichMonth == 6 && whichDayOfMonth >= 22) || (whichMonth == 7 && whichDayOfMonth <= 22)) {
     AstroSign = "Cancer and your breakfast personality is french toast. You are a complex and interesting person, without being overbearing. You're fun and sassy and know how to treat yo self.";
-    document.getElementById("results").innerHTML = "<img  src=\"frenchtoast.png\" style=\"width:200px\" alt=\"pancakes\">";
+    document.getElementById("results").innerHTML = "<img  src=\"frenchtoast.png\" style=\"width:200px\" alt=\"frenchtoast\">";
 
   } else if((whichMonth == 7 && whichDayOfMonth >= 23) || (whichMonth == 8 && whichDayOfMonth <= 23)) {
     AstroSign = "Leo and your breakfast personality is cold leftover pizza. Let's face it. You're a mess. You probably sleep way too much or not enough. And you probably are behind on a bill or two. You need to break the cycle. Pay a bill, clean your bathroom, call your mom. Go on!";
-    document.getElementById("results").innerHTML = "<img src=\"pizza.png\" style=\"width:200px\" alt=\"pancakes\">";
+    document.getElementById("results").innerHTML = "<img src=\"pizza.png\" style=\"width:200px\" alt=\"pizza\">";
 
   } else if((whichMonth == 8 && whichDayOfMonth >= 24) || (whichMonth == 9 && whichDayOfMonth <= 23)) {
     AstroSign = "Virgo and your breakfast personality is avocado toast. You are a classy and cool person. Your insta is probably strong af and I wouldn't be shocked if there was a brunch pic or two in there. Remember to pick up a book instead of a blog now and then.";
-    document.getElementById("results").innerHTML = "<img src=\"avocadotoast.png\" style=\"width:200px\" alt=\"pancakes\">";
+    document.getElementById("results").innerHTML = "<img src=\"avocadotoast.png\" style=\"width:200px\" alt=\"avocadotoast\">";
 
   } else if((whichMonth == 9 && whichDayOfMonth >= 24) || (whichMonth == 10 && whichDayOfMonth <= 23)) {
     AstroSign = "Libra and your breakfast personality is blueberry waffles. You are balanced. You understand when to have fun and when to work hard. When to go running and when to pizza binge. You're adept in social situations, yet are comfortable alone. You get it. I wish I could be like you.";
-    document.getElementById("results").innerHTML = "<img src=\"blueberrywaffles.png\" style=\"width:200px\" alt=\"pancakes\">";
+    document.getElementById("results").innerHTML = "<img src=\"blueberrywaffles.png\" style=\"width:200px\" alt=\"blueberrywaffles\">";
 
   } else if((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 22)) {
     AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. OK. We need to talk. Yes, you are cool. Yes your art/blog/zine/photography/whatever project you're really focusing on is good. But someday you're gonna have to get a job that's not bartending or selling weed so you need to do yourself a favor and start thinking more long-term than your next chemical breakfast.";

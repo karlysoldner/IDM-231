@@ -54,7 +54,7 @@ input {
 }
 .plate{
 
-   border: 1px solid #f00;
+  
   position: relative;
   z-index: 2;
 }
