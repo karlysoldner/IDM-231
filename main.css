@@ -70,7 +70,6 @@ input {
   
      display: flex;
     flex-direction: column;
-
     max-width: 68.75rem; /* 1100px */
     margin: 0 auto;
 
@@ -80,6 +79,7 @@ input {
    width: 9rem;
     height: 9rem;
     margin: .5rem auto;
+ 
 }
 
 
