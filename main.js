@@ -99,7 +99,7 @@ function gridClickBacon()
 {
 	var AstroSign;
 	AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
-     document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"pancakes\">";
+     document.getElementById("results").innerHTML = "<img src=\"baconplate.png\" style=\"width:200px\" alt=\"bacon\">";
 	 var cat = new Audio('bacon.wav');
 	 cat.play();
 
@@ -110,7 +110,7 @@ function gridClickFrenchToast()
 {
 	var AstroSign;
     AstroSign = "Cancer and your breakfast personality is french toast. You are a complex and interesting person, without being overbearing. You're fun and sassy and know how to treat yo self.";
-    document.getElementById("results").innerHTML = "<img  src=\"frenchtoast.png\" style=\"width:200px\" alt=\"pancakes\">";
+    document.getElementById("results").innerHTML = "<img  src=\"frenchtoast.png\" style=\"width:200px\" alt=\"frenchtoast\">";
 var cat = new Audio('frenchtoast.mp3');
 	 cat.play();
      var outputArea = document.getElementById('displayMsg');
@@ -168,7 +168,7 @@ function gridClickAvocadoToast()
     document.getElementById("results").innerHTML = "<img  src=\"avocadotoast.png\" style=\"width:200px\" alt=\"avocadotoast\">";
     AstroSign = "Virgo and your breakfast personality is avocado toast. You are a classy and cool person. Your insta is probably strong af and I wouldn't be shocked if there was a brunch pic or two in there. Remember to pick up a book instead of a blog now and then.";
 	     var outputArea = document.getElementById('displayMsg');
-var cat = new Audio('frenchtoast.mp3');
+var cat = new Audio('ping.wav');
 	 cat.play();
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
@@ -180,7 +180,7 @@ function gridClickWaffle()
     document.getElementById("results").innerHTML = "<img  src=\"blueberrywaffles.png\" style=\"width:200px\" alt=\"waffles\">";
     AstroSign = "Libra and your breakfast personality is blueberry waffles. You are balanced. You understand when to have fun and when to work hard. When to go running and when to pizza binge. You're adept in social situations, yet are comfortable alone. You get it. I wish I could be like you.";
 	     var outputArea = document.getElementById('displayMsg');
-var cat = new Audio('frenchtoast.mp3');
+var cat = new Audio('waffle.wav');
 	 cat.play();
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
