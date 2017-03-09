@@ -46,7 +46,7 @@ function calZodiac()
      document.getElementById("results").innerHTML = "<img src=\"donut.png\" style=\"width:200px\" alt=\"donut\">";
 
   } else if((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 20)) {
-    AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
+    AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition. Sort of like makin' bacon.";
      document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"bacon\">";
 
   } else if((whichMonth == 4 && whichDayOfMonth >= 21) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
@@ -100,6 +100,8 @@ function gridClickBacon()
 	var AstroSign;
 	AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
      document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"pancakes\">";
+	 var cat = new Audio('bacon.wav');
+	 cat.play();
 
      var outputArea = document.getElementById('displayMsg');
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
@@ -109,7 +111,8 @@ function gridClickFrenchToast()
 	var AstroSign;
     AstroSign = "Cancer and your breakfast personality is french toast. You are a complex and interesting person, without being overbearing. You're fun and sassy and know how to treat yo self.";
     document.getElementById("results").innerHTML = "<img  src=\"frenchtoast.png\" style=\"width:200px\" alt=\"pancakes\">";
-
+var cat = new Audio('frenchtoast.mp3');
+	 cat.play();
      var outputArea = document.getElementById('displayMsg');
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
@@ -150,7 +153,8 @@ function gridClickScrambledEggs()
     AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable.";
     document.getElementById("results").innerHTML = "<img  src=\"scrambledeggs.png\" style=\"width:200px\" alt=\"eggs\">";
          var outputArea = document.getElementById('displayMsg');
-
+var cat = new Audio('scrambledeggs.wav');
+	 cat.play();
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
 
@@ -222,4 +226,6 @@ function gridClickPizza()
 
 	outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
+
+
 
