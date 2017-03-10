@@ -50,7 +50,7 @@ function calZodiac()
      document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"bacon\">";
 
   } else if((whichMonth == 4 && whichDayOfMonth >= 21) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
-    AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable.";
+    AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable. You have many varied interests but you have a good head on your shoulders and are capable of much.";
      document.getElementById("results").innerHTML = "<img src=\"scrambledeggs.png\" style=\"width:200px\" alt=\"eggs\">";
 
   } else if((whichMonth == 5 && whichDayOfMonth >= 21) || (whichMonth == 6 && whichDayOfMonth <= 20)) {
