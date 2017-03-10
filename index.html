@@ -16,7 +16,7 @@
     <p class="intro"> Welcome to Breakfast Oracle Diner! Enter your name and birthdate for a personalized breakfast suggestion, or choose your favorite breakfast from the menu photos below. </p>
 </div>
 <div class="transbox">
-    <div class="box">
+  
     <form>
         <input type="text" id="fname" placeholder="First Name">
       
@@ -24,17 +24,18 @@
       
         <input type="date" id="bday" onchange="calZodiac()">
     </form>
-<div id="displayMsg">
+     <img class="plate" src="plate.png" align="right"  style="width:400px">   
+      <div class="box">
+<div  id="displayMsg">
        </div>
-       </div>
+   
  
-<div id="results">
-<audio id="bloop" >
-    <source src="bacon.wav" type="audio/wav">
-    </audio>
-<img class="plate" src="plate.png" align="right"  style="width:400px">
+<div  id="results">
+
 </div>
-<div>
+
+</div>
+<div >
 <img class="bacon" src="bacon.png" alt="bacon" style="display:none " >
 <img class="scrambledeggs" src="scrambledeggs.png" alt="scrambled eggs" style="display:none">
 <img class="toast" src="frenchtoast.png" alt="french toast" style="display:none">
