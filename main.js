@@ -143,7 +143,7 @@ function gridClickPancakes()
 {
 	var AstroSign;
     AstroSign = "Aquarius and your breakfast personality is pancakes. You're an easy-going person, but because of this some people will find you too simple. Forget them and keep doing you.";
-    document.getElementById("results").innerHTML = "<img  src=\"pancakes.png\" style=\"width:200px\" alt=\"pancakes\">";
+    document.getElementById("results").innerHTML = "<img  src=\"pancakes.png\" class=\"food-on-plate\" alt=\"pancakes\">";
      var cat = new Audio('pancake.wav');
 	 cat.play();
      var outputArea = document.getElementById('displayMsg');
