@@ -99,7 +99,7 @@ function gridClickBacon()
 {
 	var AstroSign;
 	AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
-     document.getElementById("results").innerHTML = "<img src=\"baconplate.png\" style=\"width:200px\" alt=\"bacon\">";
+     document.getElementById("results").style.display = "block";
 	 var cat = new Audio('bacon.wav');
 	 cat.play();
 
