@@ -1,0 +1,81 @@
+<html><head>
+  <title>Breakfast Oracle</title>
+  <link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Alice|Sacramento" rel="stylesheet">
+</head>
+
+<body>
+  <div class="transbox">
+   
+     <h1>Breakfast Oracle</h1>
+     <p class="intro"> Welcome to Breakfast Oracle Diner! Enter your name and birthdate for a personalized breakfast suggestion, or choose your favorite breakfast from the menu photos below. </p>
+  </div>
+
+  <div class="transbox" style="
+    border:  1px solid darkgreen;
+">
+    <form>
+      <input type="text" id="fname" placeholder="First Name">
+      
+      <input type="text" id="lname" placeholder="Last Name">
+      
+      <input type="date" id="bday" onchange="calZodiac()">
+    </form>
+
+  <div>
+  
+      <div id="displayMsg"> Your zodiac sign is Virgo and your breakfast personality is avocado toast. You are a classy and cool person. Your insta is probably strong af and I wouldn't be shocked if there was a brunch pic or two in there. Remember to pick up a book instead of a blog now and then.</div>  
+
+  </div><div id="breakfast-container" style="
+    border: 1px solid purple;
+" class="row"> 
+    <div id="results" class="col-6 visible">
+      <div id="allpics">
+        <img src="plate.png" alt="plate" class="plate" style="
+    border: 2px solid red;
+">  
+        <img id="bacon" src="bacon.png" alt="bacon">
+        <img id="scrambledeggs" src="scrambledeggs.png" alt="scrambled eggs">
+        <img id="toast" src="frenchtoast.png" alt="french toast">
+        <img id="oatmeal" src="oatmeal.png" alt="oatmeal">
+        <img id="avocado" src="avocadotoast.png" alt="avocado toast">
+        <img id="waffle" src="blueberrywaffles.png" alt="blueberry waffles">
+        <img id="coffee" src="coffeecigarette.png" alt="coffee and a cigarette">
+        <img id="bagel" src="everythingbagel.png" alt="everything bagel">
+        <img id="donut" src="donut.png" alt="donut">
+        <img id="cereal" src="cereal.png" alt="cold cereal with milk">
+        <img id="pancakes" src="pancakes.png" alt="pancakes">
+        <img id="pizza" src="pizza.png" alt="cold leftover pizza" class="visible">
+      </div>
+    </div>
+  
+
+
+
+  <div class="grid col-6" style="
+    border: 1px solid blue;
+    padding-left: 265px;
+">
+    <img src="bacon.png" alt="bacon" onclick="gridClickBacon()">
+    <img src="scrambledeggs.png" alt="scrambled eggs" onclick="gridClickScrambledEggs()">
+    <img src="frenchtoast.png" alt="french toast" onclick="gridClickFrenchToast()">
+    <img src="oatmeal.png" alt="oatmeal" onclick="gridClickOatmeal()"> 
+    <img src="avocadotoast.png" alt="avocado toast" onclick="gridClickAvocadoToast()">
+    <img src="blueberrywaffles.png" alt="blueberry waffles" onclick="gridClickWaffle()">
+    <img src="coffeecigarette.png" alt="coffee and a cigarette" onclick="gridClickCoffee()">
+    <img src="everythingbagel.png" alt="everything bagel" onclick="gridClickEverythingBagel()">
+    <img src="donut.png" alt="donut" onclick="gridClickDonut()">
+    <img src="cereal.png" alt="cold cereal with milk" onclick="gridClickCereal()">
+    <img src="pancakes.png" alt="pancakes" onclick="gridClickPancakes()">
+    <img src="pizza.png" alt="cold leftover pizza" onclick="gridClickPizza()">
+  </div></div>
+
+
+
+  
+ </div> 
+
+<script src="./main.js"></script>
+
+
+ </body></html>

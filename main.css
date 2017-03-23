@@ -110,7 +110,24 @@ input {
  
 }
 
+.row {
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 16px;
+}
 
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  [class*="col-"] {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  }
+  
 #displayMsg {
   max-width: 50%;
   max-height: 50%;

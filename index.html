@@ -16,61 +16,60 @@
   </div>
 
   <div class="transbox">
-    <form>
-      <input type="text" id="fname" placeholder="First Name">
-      
-      <input type="text" id="lname" placeholder="Last Name">
-      
-      <input type="date" id="bday" onchange="calZodiac()">
-    </form>
+      <form>
+        <input type="text" id="fname" placeholder="First Name">
+        
+        <input type="text" id="lname" placeholder="Last Name">
+        
+        <input type="date" id="bday" onchange="calZodiac()">
+      </form>
 
-  <div id="breakfast-container"> 
-    <div id="results">
-      <div id="allpics">
-        <img  src="plate.png" alt="plate" class="plate" >  
-        <img id="bacon" src="bacon.png" alt="bacon">
-        <img id="scrambledeggs" src="scrambledeggs.png" alt="scrambled eggs">
-        <img id="toast" src="frenchtoast.png" alt="french toast">
-        <img id="oatmeal" src="oatmeal.png" alt="oatmeal">
-        <img id="avocado" src="avocadotoast.png" alt="avocado toast" >
-        <img id="waffle" src="blueberrywaffles.png" alt="blueberry waffles">
-        <img id="coffee" src="coffeecigarette.png" alt="coffee and a cigarette">
-        <img id="bagel" src="everythingbagel.png" alt="everything bagel">
-        <img id="donut" src="donut.png" alt="donut">
-        <img id="cereal" src="cereal.png" alt="cold cereal with milk">
-        <img id="pancakes" src="pancakes.png" alt="pancakes">
-        <img id="pizza" src="pizza.png" alt="cold leftover pizza">
+       <div class="col-6">
+    
+        <div  id="displayMsg">
+       
+        </div>  
+        </div>
+
+   
+      <div id="results" class="col-6 visible">
+        <div id="allpics">
+          <img  src="plate.png" alt="plate" class="plate" >  
+          <img id="bacon" src="bacon.png" alt="bacon">
+          <img id="scrambledeggs" src="scrambledeggs.png" alt="scrambled eggs">
+          <img id="toast" src="frenchtoast.png" alt="french toast">
+          <img id="oatmeal" src="oatmeal.png" alt="oatmeal">
+          <img id="avocado" src="avocadotoast.png" alt="avocado toast" >
+          <img id="waffle" src="blueberrywaffles.png" alt="blueberry waffles">
+          <img id="coffee" src="coffeecigarette.png" alt="coffee and a cigarette">
+          <img id="bagel" src="everythingbagel.png" alt="everything bagel">
+          <img id="donut" src="donut.png" alt="donut">
+          <img id="cereal" src="cereal.png" alt="cold cereal with milk">
+          <img id="pancakes" src="pancakes.png" alt="pancakes">
+          <img id="pizza" src="pizza.png" alt="cold leftover pizza">
+        </div>
       </div>
+
+
+   <div class ="grid">
+
+
+      <img src="bacon.png" alt="bacon" onclick="gridClickBacon()">
+      <img src="scrambledeggs.png" alt="scrambled eggs" onclick="gridClickScrambledEggs()">
+      <img src="frenchtoast.png" alt="french toast" onclick="gridClickFrenchToast()">
+      <img src="oatmeal.png" alt="oatmeal" onclick="gridClickOatmeal()"> 
+      <img src="avocadotoast.png" alt="avocado toast" onclick="gridClickAvocadoToast()">
+      <img src="blueberrywaffles.png" alt="blueberry waffles" onclick="gridClickWaffle()">
+      <img src="coffeecigarette.png" alt="coffee and a cigarette" onclick="gridClickCoffee()">
+      <img src="everythingbagel.png" alt="everything bagel" onclick="gridClickEverythingBagel()">
+      <img src="donut.png" alt="donut" onclick="gridClickDonut()">
+      <img src="cereal.png" alt="cold cereal with milk" onclick="gridClickCereal()">
+      <img src="pancakes.png" alt="pancakes" onclick="gridClickPancakes()">
+      <img src="pizza.png" alt="cold leftover pizza" onclick="gridClickPizza()">
     </div>
-  <div>
   
-      <div  id="displayMsg">
-     
-      </div>  
 
-  </div>
-
-
-
-  </div>
-
-
-
-  <div class="grid">
-    <img src="bacon.png" alt="bacon" onclick="gridClickBacon()">
-    <img src="scrambledeggs.png" alt="scrambled eggs" onclick="gridClickScrambledEggs()">
-    <img src="frenchtoast.png" alt="french toast" onclick="gridClickFrenchToast()">
-    <img src="oatmeal.png" alt="oatmeal" onclick="gridClickOatmeal()"> 
-    <img src="avocadotoast.png" alt="avocado toast" onclick="gridClickAvocadoToast()">
-    <img src="blueberrywaffles.png" alt="blueberry waffles" onclick="gridClickWaffle()">
-    <img src="coffeecigarette.png" alt="coffee and a cigarette" onclick="gridClickCoffee()">
-    <img src="everythingbagel.png" alt="everything bagel" onclick="gridClickEverythingBagel()">
-    <img src="donut.png" alt="donut" onclick="gridClickDonut()">
-    <img src="cereal.png" alt="cold cereal with milk" onclick="gridClickCereal()">
-    <img src="pancakes.png" alt="pancakes" onclick="gridClickPancakes()">
-    <img src="pizza.png" alt="cold leftover pizza" onclick="gridClickPizza()">
-  </div>
- </div> 
+ </div>
 
 <script src="./main.js"></script>
 </body>
