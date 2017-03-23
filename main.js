@@ -1,7 +1,28 @@
 var firstName;
 var birthDayObj;
 var WeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+var allpicsObj = document.getElementById('allpics');
 
+console.log(allpicsObj);
+
+var imgArray = allpicsObj.children;
+//alert(allpicsObj);
+
+for (lp = 0; lp < imgArray.length; lp++) {
+    //alert(imgArray[lp].classList);
+    
+    if(imgArray[lp].classList == 'bacon' || imgArray[lp].classList == "toast")
+    {
+        //alert( "we in" + imgArray[lp].classList);
+        imgArray[lp].classList.remove('bacon');
+        imgArray[lp].classList.add('visible');
+        alert(imgArray[lp].classList);
+    }
+    else
+    {
+        imgArray[lp].classList.remove('visible');
+    }
+}
 function calZodiac() {
     firstName = document.getElementById('fname').value;
     lastName = document.getElementById('lname').value;
@@ -91,7 +112,7 @@ function calZodiac() {
 
 function gridClickBacon() {
     var AstroSign;
-    AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
+    AstroSign = "Aries and your breakfast personality is bacon. Making bacon requires raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
     document.getElementById("results").classList.add('visible');
     var cat = new Audio('bacon.wav');
     cat.play();
@@ -215,25 +236,17 @@ function gridClickPizza() {
     cat.play();
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
-var allpicsObj = document.getElementById('allpics');
 
-console.log(allpicsObj);
 
-var imgArray = allpicsObj.children;
-
-for (lp = 0; lp < imgArray.length; lp++) {
-    imgArray[lp].classList.remove('visible');
-}
-
-switch (whichOne) {
-  case 'bacon':
-    imgArray[1].classList.add('visible');
-    break;
-  case 'frenchtoast':
-    imgArray[2].classList.add('visible');
-    break;
-  case 'oatmeal':
-    imgArray[3].classList.add('visible');
-    break;
-  default:
-  }
+//switch (whichOne) {
+ // case 'bacon':
+  //  imgArray[1].classList.add('visible');
+   // break;
+  //case 'frenchtoast':
+   // imgArray[2].classList.add('visible');
+    //break;
+ // case 'oatmeal':
+  //  imgArray[3].classList.add('visible');
+   // break;
+  //default:
+  //}
