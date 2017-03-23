@@ -6,17 +6,13 @@ var allpicsObj = document.getElementById('allpics');
 console.log(allpicsObj);
 
 var imgArray = allpicsObj.children;
-//alert(allpicsObj);
 
-for (lp = 0; lp < imgArray.length; lp++) {
-    //alert(imgArray[lp].classList);
+for (lp = 0; lp < imgArray.length; lp++) 
+{
     
-    if(imgArray[lp].classList == 'bacon' || imgArray[lp].classList == "toast")
+    if(imgArray[lp].classList == "plate")
     {
-        //alert( "we in" + imgArray[lp].classList);
-        imgArray[lp].classList.remove('bacon');
         imgArray[lp].classList.add('visible');
-        alert(imgArray[lp].classList);
     }
     else
     {
@@ -111,6 +107,18 @@ function calZodiac() {
 }
 
 function gridClickBacon() {
+    for (lp = 0; lp < imgArray.length; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "bacon")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     AstroSign = "Aries and your breakfast personality is bacon. Making bacon requires raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
     document.getElementById("results").classList.add('visible');
@@ -122,6 +130,18 @@ function gridClickBacon() {
 }
 
 function gridClickFrenchToast() {
+        for (lp = 0; lp < imgArray.length; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "toast")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     AstroSign = "Cancer and your breakfast personality is french toast. You are a complex and interesting person, without being overbearing. You're fun and sassy and know how to treat yo self.";
     document.getElementById("results").classList.add('visible');
@@ -132,6 +152,18 @@ function gridClickFrenchToast() {
 }
 
 function gridClickOatmeal() {
+    for (lp = 0; lp < imgArray.length; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "oatmeal")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     AstroSign = "Capricorn and your breakfast personality is oatmeal. You're ambitious and interesting but a little too responsible. Relax a little. You're never going to accomplish your goals or be a success so stop being such a try-hard and pick up a chill hobby like camping or skiing or glassblowing";
     document.getElementById("results").classList.add('visible');
@@ -142,6 +174,18 @@ function gridClickOatmeal() {
 }
 
 function gridClickDonut() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "donut")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     AstroSign = "Pisces and your breakfast personality is a donut. You are crazy and reckless and always a good time. You understand that you only live once and are making the most of it. Try not to be too reckless or that one life you get to live might be a short one.";
     document.getElementById("results").classList.add('visible');
@@ -152,6 +196,18 @@ function gridClickDonut() {
 }
 
 function gridClickPancakes() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "pancakes")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     AstroSign = "Aquarius and your breakfast personality is pancakes. You're an easy-going person, but because of this some people will find you too simple. Forget them and keep doing you.";
     document.getElementById("results").classList.add('visible');
@@ -162,6 +218,18 @@ function gridClickPancakes() {
 }
 
 function gridClickScrambledEggs() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "scrambledeggs")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable.";
     document.getElementById("results").classList.add('visible');
@@ -172,6 +240,18 @@ function gridClickScrambledEggs() {
 }
 
 function gridClickAvocadoToast() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "avocadotoast")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     document.getElementById("results").classList.add('visible');
     AstroSign = "Virgo and your breakfast personality is avocado toast. You are a classy and cool person. Your insta is probably strong af and I wouldn't be shocked if there was a brunch pic or two in there. Remember to pick up a book instead of a blog now and then.";
@@ -182,6 +262,18 @@ function gridClickAvocadoToast() {
 }
 
 function gridClickWaffle() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "waffle")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
@@ -193,6 +285,18 @@ function gridClickWaffle() {
 }
 
 function gridClickCoffee() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "coffee")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
@@ -204,6 +308,18 @@ function gridClickCoffee() {
 }
 
 function gridClickEverythingBagel() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "bagel")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
@@ -216,6 +332,18 @@ function gridClickEverythingBagel() {
 }
 
 function gridClickCereal() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "cereal")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
@@ -228,6 +356,18 @@ function gridClickCereal() {
 
 
 function gridClickPizza() {
+    for (lp = 0; lp < imgArray.length-1; lp++) 
+    {
+    
+        if(imgArray[lp].classList == "pizza")
+        {
+           imgArray[lp].classList.add('visible');
+        }
+        else
+        {
+             imgArray[lp].classList.remove('visible');
+        }
+    }
     var AstroSign;
     document.getElementById("pizza").classList.add('visible');
     AstroSign = "Leo and your breakfast personality is cold leftover pizza. Let's face it. You're a mess. You probably sleep way too much or not enough. And you probably are behind on a bill or two. You need to break the cycle. Pay a bill, clean your bathroom, call your mom. Go on!";
