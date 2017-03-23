@@ -69,12 +69,12 @@ function calZodiac() {
         document.getElementById("results").innerHTML = "<img src=\"blueberrywaffles.png\" style=\"width:200px\" alt=\"blueberrywaffles\">";
 
     } else if ((whichMonth == 10 && whichDayOfMonth >= 24) || (whichMonth == 11 && whichDayOfMonth <= 22)) {
-        AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. OK. We need to talk. Yes, you are cool. Yes your art/blog/zine/photography/whatever project you're really focusing on is good. But someday you're gonna have to get a job that's not bartending or selling weed so you need to do yourself a favor and start thinking more long-term than your next chemical breakfast.";
-        document.getElementById("results").innerHTML = "<img src=\"coffeecigarette.png\" style=\"width:200px\" alt=\"pancakes\">";
+        AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. Yes, you are cool. Yes your art/blog/photography/whatever project you're really focusing on is good. But someday you're gonna need a job that pays so do yourself a favor and start thinking more long-term.";
+        document.getElementById("results").innerHTML = "<img src=\"coffeecigarette.png\" style=\"width:200px\" alt=\"coffee and a cigarette\">";
 
     } else if ((whichMonth == 11 && whichDayOfMonth >= 23) || (whichMonth == 12 && whichDayOfMonth <= 21)) {
-        AstroSign = "Sagittarius and your breakfast personality is an everything bagel. Lame people call you quirky, cool people call you unique, and everyone knows your are interesting. You struggle to make close friends because you don't seem to connect with people on a deep level, even after spending lots of time with them. Go out of your way to really try and like a few people. It's hard, I know, but it's worth it.";
-        document.getElementById("results").innerHTML = "<img src=\"everythingbagel.png\" style=\"width:200px\" alt=\"pancakes\">";
+        AstroSign = "Sagittarius and your breakfast personality is an everything bagel. People call you quirky and unique, but they all know you are interesting. You struggle to make close friends because you don't connect with people on a deep level. Go out of your way to really try and like a few people. It's worth it.";
+        document.getElementById("results").innerHTML = "<img src=\"everythingbagel.png\" style=\"width:200px\" alt=\"bagel\">";
 
     } else {
         AstroSign = "Error";
@@ -175,7 +175,7 @@ function gridClickCoffee() {
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
-    AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. OK. We need to talk. Yes, you are cool. Yes your art/blog/zine/photography/whatever project you're really focusing on is good. But someday you're gonna have to get a job that's not bartending or selling weed so you need to do yourself a favor and start thinking more long-term than your next chemical breakfast.";
+    AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. Yes, you are cool. Yes your art/blog/photography/whatever project you're really focusing on is good. But someday you're gonna need a job that pays so do yourself a favor and start thinking more long-term.";
     var cat = new Audio('coffee.wav');
     cat.play();
     var outputArea = document.getElementById('displayMsg');
@@ -186,7 +186,7 @@ function gridClickEverythingBagel() {
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
-    AstroSign = "Sagittarius and your breakfast personality is an everything bagel. Lame people call you quirky, cool people call you unique, and everyone knows your are interesting. You struggle to make close friends because you don't seem to connect with people on a deep level, even after spending lots of time with them. Go out of your way to really try and like a few people. It's hard, I know, but it's worth it.";
+    AstroSign = "Sagittarius and your breakfast personality is an everything bagel. People call you quirky and unique, but they all know you are interesting. You struggle to make close friends because you don't connect with people on a deep level. Go out of your way to really try and like a few people. It's worth it.";
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('frenchtoast.mp3');
     cat.play();
