@@ -198,7 +198,7 @@ function gridClickCereal() {
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
-    AstroSign = "Gemini and your breakfast personality is cereal. You know that song by The Kinks called A Well Respected Man? That song is about you, but not in a bad way.";
+    AstroSign = "Gemini and your breakfast personality is cereal. You know that song by The Kinks called 'A Well Respected Man'? That song is about you, but not in a bad way. You're a meticulous person, but not a boring one.";
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('cereal.wav');
     cat.play();
@@ -224,3 +224,16 @@ var imgArray = allpicsObj.children;
 for (lp = 0; lp < imgArray.length; lp++) {
     imgArray[lp].classList.remove('visible');
 }
+
+switch (whichOne) {
+  case 'bacon':
+    imgArray[1].classList.add('visible');
+    break;
+  case 'frenchtoast':
+    imgArray[2].classList.add('visible');
+    break;
+  case 'oatmeal':
+    imgArray[3].classList.add('visible');
+    break;
+  default:
+  }
