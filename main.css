@@ -87,8 +87,7 @@ input {
   margin-left: 1rem;
 }
 .plate{
-
-  margin-right: 1.3rem;
+  margin-left: 3rem;
   position: relative;
   z-index: 2;
 }
@@ -130,12 +129,11 @@ input {
   }
 
 #displayMsg {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin: .5em;
   line-height: 1.5em;
-  min-height: 200px;
+  min-height: 200px; 
 }
-
 
 
 /* HELP */
