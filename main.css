@@ -19,10 +19,10 @@ div.transbox {
   z-index: -2;
 }
 
-
 #allpics {
 position: relative;
 width: 1px;
+z-index: 2;
 }
 
 #allpics img{
@@ -36,12 +36,13 @@ width: 1px;
 
 .visible {
    opacity: 1 !important;
+
 }
 
 #allpics .plate{
   opacity: 1!important;
 
-  z-index: -1;
+  z-index: 0;
 }
 
 
