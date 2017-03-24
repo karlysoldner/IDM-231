@@ -174,7 +174,7 @@ function gridClickOatmeal() {
 }
 
 function gridClickDonut() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "donut")
@@ -196,7 +196,7 @@ function gridClickDonut() {
 }
 
 function gridClickPancakes() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "pancakes")
@@ -218,7 +218,7 @@ function gridClickPancakes() {
 }
 
 function gridClickScrambledEggs() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "scrambledeggs")
@@ -240,7 +240,7 @@ function gridClickScrambledEggs() {
 }
 
 function gridClickAvocadoToast() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "avocadotoast")
@@ -262,7 +262,7 @@ function gridClickAvocadoToast() {
 }
 
 function gridClickWaffle() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "waffle")
@@ -285,7 +285,7 @@ function gridClickWaffle() {
 }
 
 function gridClickCoffee() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "coffee")
@@ -308,7 +308,7 @@ function gridClickCoffee() {
 }
 
 function gridClickEverythingBagel() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "bagel")
@@ -332,7 +332,7 @@ function gridClickEverythingBagel() {
 }
 
 function gridClickCereal() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "cereal")
@@ -356,7 +356,7 @@ function gridClickCereal() {
 
 
 function gridClickPizza() {
-    for (lp = 0; lp < imgArray.length-1; lp++) 
+    for (lp = 0; lp < imgArray.length; lp++) 
     {
     
         if(imgArray[lp].classList == "pizza")
@@ -376,17 +376,3 @@ function gridClickPizza() {
     cat.play();
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
-
-
-//switch (whichOne) {
- // case 'bacon':
-  //  imgArray[1].classList.add('visible');
-   // break;
-  //case 'frenchtoast':
-   // imgArray[2].classList.add('visible');
-    //break;
- // case 'oatmeal':
-  //  imgArray[3].classList.add('visible');
-   // break;
-  //default:
-  //}
