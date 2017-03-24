@@ -39,7 +39,7 @@ width: 1px;
 
 #allpics .plate{
   opacity: 1!important;
-  
+
   z-index: -1;
 }
 
@@ -127,11 +127,12 @@ input {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   [class*="col-"] {
   width: 45%;
   display: inline-block;
   vertical-align: top;
+  min-height: 20px;
   }
 
 #displayMsg {

@@ -1,6 +1,6 @@
 var firstName;
 var birthDayObj;
-//var WeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+var WeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 var allpicsObj = document.getElementById('allpics');
 
 console.log(allpicsObj);
@@ -99,7 +99,7 @@ function calZodiac() {
 
 
     var outputArea = document.getElementById('displayMsg');
-    outputArea.innerHTML = 'Hello ' + firstName + ' ' + lastName + '!' + ' You are ' + age + ' years old and' + ' you were born on a ' + WeekDays[whichDayNdx] + '.' + ' Your zodiac sign is ' + AstroSign;
+    outputArea.innerHTML = 'Hello ' + firstName + '!' +  'Your zodiac sign is '+ AstroSign;
 
 
 
