@@ -1,6 +1,6 @@
 var firstName;
 var birthDayObj;
-var WeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+//var WeekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 var allpicsObj = document.getElementById('allpics');
 
 console.log(allpicsObj);
@@ -21,7 +21,7 @@ for (lp = 0; lp < imgArray.length; lp++)
 }
 function calZodiac() {
     firstName = document.getElementById('fname').value;
-    lastName = document.getElementById('lname').value;
+    //lastName = document.getElementById('lname').value;
     birthDayObj = new Date(document.getElementById('bday').value);
 
     var whichDayNdx = birthDayObj.getDay();
