@@ -16,6 +16,7 @@ div.transbox {
   border: 1px ; /*no color, keeps things in line*/
   background: rgba(255, 255, 255, 0.8); /*  white background with 80% opacity */
   height: auto;
+  z-index: -2;
 }
 
 
@@ -91,7 +92,7 @@ input {
 .plate{
   width: 100%;
   position: relative;
-  z-index: 2;
+  z-index: -1;
 }
 
 
@@ -132,7 +133,6 @@ input {
   width: 45%;
   display: inline-block;
   vertical-align: top;
-  min-height: 20px;
   }
 
 #displayMsg {
