@@ -58,8 +58,11 @@ function calZodiac() {
         document.getElementById("results").innerHTML = "<img src=\"donut.png\" style=\"width:200px\" alt=\"donut\">";
 
     } else if ((whichMonth == 3 && whichDayOfMonth >= 21) || (whichMonth == 4 && whichDayOfMonth <= 20)) {
+        //gridClickBacon();
         AstroSign = "Aries and your breakfast personality is bacon. Bacon is a a powerful flavor made from birthing, raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition. Sort of like makin' bacon.";
-        document.getElementById("results").style.display = "block";
+        //document.getElementById("results").style.display = "block";
+        document.getElementById("results").innerHTML = "<img src=\"bacon.png\" style=\"width:200px\" alt=\"bacon\">";
+
 
     } else if ((whichMonth == 4 && whichDayOfMonth >= 21) || (whichMonth == 5 && whichDayOfMonth <= 20)) {
         AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable. You have many varied interests but you have a good head on your shoulders and are capable of much.";
@@ -119,8 +122,10 @@ function gridClickBacon() {
              imgArray[lp].classList.remove('visible');
         }
     }
+    document.getElementById('bday').innerHTML="mm/dd/yyyy";
     var AstroSign;
     AstroSign = "Aries and your breakfast personality is bacon. Making bacon requires raising, slaughtering, and processing an animal. And the hard work comes through because it's tasty af. You understand the value of hard work and aren't afraid of your own ambition.";
+    document.getElementById("results").innerHTML= "<img src=\"bacon.png\" style=\"width:200px\" alt=\"bacon\">";
     document.getElementById("results").classList.add('visible');
     var cat = new Audio('bacon.wav');
     cat.play();
@@ -144,6 +149,7 @@ function gridClickFrenchToast() {
     }
     var AstroSign;
     AstroSign = "Cancer and your breakfast personality is french toast. You are a complex and interesting person, without being overbearing. You're fun and sassy and know how to treat yo self.";
+    document.getElementById("results").innerHTML= "<img src=\"frenchtoast.png\" style=\"width:200px\" alt=\"french toast\">";
     document.getElementById("results").classList.add('visible');
     var cat = new Audio('frenchtoast.mp3');
     cat.play();
@@ -166,6 +172,7 @@ function gridClickOatmeal() {
     }
     var AstroSign;
     AstroSign = "Capricorn and your breakfast personality is oatmeal. You're ambitious and interesting but a little too responsible. Relax a little. You're never going to accomplish your goals or be a success so stop being such a try-hard and pick up a chill hobby like camping or skiing or glassblowing";
+    document.getElementById("results").innerHTML= "<img src=\"oatmeal.png\" style=\"width:200px\" alt=\"oatmeal\">"
     document.getElementById("results").classList.add('visible');
     var cat = new Audio('oatmeal.wav');
     cat.play();
@@ -188,6 +195,7 @@ function gridClickDonut() {
     }
     var AstroSign;
     AstroSign = "Pisces and your breakfast personality is a donut. You are crazy and reckless and always a good time. You understand that you only live once and are making the most of it. Try not to be too reckless or that one life you get to live might be a short one.";
+    document.getElementById("results").innerHTML= "<img src=\"donut.png\" style=\"width:200px\" alt=\"donut\">"
     document.getElementById("results").classList.add('visible');
     var cat = new Audio('donut.wav');
     cat.play();
@@ -210,6 +218,7 @@ function gridClickPancakes() {
     }
     var AstroSign;
     AstroSign = "Aquarius and your breakfast personality is pancakes. You're an easy-going person, but because of this some people will find you too simple. Forget them and keep doing you.";
+    document.getElementById("results").innerHTML= "<img src=\"pancakes.png\" style=\"width:200px\" alt=\"pancakes\">"
     document.getElementById("results").classList.add('visible');
     var cat = new Audio('pancake.wav');
     cat.play();
@@ -232,6 +241,7 @@ function gridClickScrambledEggs() {
     }
     var AstroSign;
     AstroSign = "Taurus and your breakfast personality is scrambled eggs. You might look light and fluffy, but you are a wise and likeable.";
+    document.getElementById("results").innerHTML= "<img src=\"scrambledeggs.png\" style=\"width:200px\" alt=\"scrambled eggs\">"
     document.getElementById("results").classList.add('visible');
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('scrambledeggs.wav');
@@ -254,6 +264,7 @@ function gridClickAvocadoToast() {
     }
     var AstroSign;
     document.getElementById("results").classList.add('visible');
+    document.getElementById("results").innerHTML= "<img src=\"avocadotoast.png\" style=\"width:200px\" alt=\"avocado toast\">"
     AstroSign = "Virgo and your breakfast personality is avocado toast. You are a classy and cool person. Your insta is probably strong af and I wouldn't be shocked if there was a brunch pic or two in there. Remember to pick up a book instead of a blog now and then.";
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('ping.wav');
@@ -275,8 +286,8 @@ function gridClickWaffle() {
         }
     }
     var AstroSign;
-
     document.getElementById("results").classList.add('visible');
+    document.getElementById("results").innerHTML= "<img src=\"blueberrywaffles.png\" style=\"width:200px\" alt=\"waffles\">"
     AstroSign = "Libra and your breakfast personality is blueberry waffles. You are balanced. You understand when to have fun and when to work hard. When to go running and when to pizza binge. You're adept in social situations, yet are comfortable alone. You get it. I wish I could be like you.";
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('waffle.wav');
@@ -300,6 +311,7 @@ function gridClickCoffee() {
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
+    document.getElementById("results").innerHTML= "<img src=\"coffeecigarette.png\" style=\"width:200px\" alt=\"coffee and a cigarette\">"
     AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. Yes, you are cool. Yes your art/blog/photography/whatever project you're really focusing on is good. But someday you're gonna need a job that pays so do yourself a favor and start thinking more long-term.";
     var cat = new Audio('coffee.wav');
     cat.play();
@@ -323,6 +335,7 @@ function gridClickEverythingBagel() {
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
+    document.getElementById("results").innerHTML= "<img src=\"everythingbagel.png\" style=\"width:200px\" alt=\"everything bagel\">"
     AstroSign = "Sagittarius and your breakfast personality is an everything bagel. People call you quirky and unique, but they all know you are interesting. You struggle to make close friends because you don't connect with people on a deep level. Go out of your way to really try and like a few people. It's worth it.";
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('frenchtoast.mp3');
@@ -347,6 +360,7 @@ function gridClickCereal() {
     var AstroSign;
 
     document.getElementById("results").classList.add('visible');
+    document.getElementById("results").innerHTML= "<img src=\"cereal.png\" style=\"width:200px\" alt=\"cereal\">"
     AstroSign = "Gemini and your breakfast personality is cereal. You know that song by The Kinks called 'A Well Respected Man'? That song is about you, but not in a bad way. You're a meticulous person, but not a boring one.";
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('cereal.wav');
@@ -369,7 +383,8 @@ function gridClickPizza() {
         }
     }
     var AstroSign;
-    document.getElementById("pizza").classList.add('visible');
+    document.getElementById("results").classList.add('visible');
+    document.getElementById("results").innerHTML= "<img src=\"pizza.png\" style=\"width:200px\" alt=\"pizza\">"
     AstroSign = "Leo and your breakfast personality is cold leftover pizza. Let's face it. You're a mess. You probably sleep way too much or not enough. And you probably are behind on a bill or two. You need to break the cycle. Pay a bill, clean your bathroom, call your mom. Go on!";
     var outputArea = document.getElementById('displayMsg');
     var cat = new Audio('pizza.wav');
