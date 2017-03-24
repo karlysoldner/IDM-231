@@ -88,7 +88,7 @@ input {
   margin-left: 1rem;
 }
 .plate{
-  margin-left: 3rem;
+  width: 100%;
   position: relative;
   z-index: 2;
 }
