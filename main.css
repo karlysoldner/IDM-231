@@ -111,6 +111,10 @@ input {
  
 }
 
+.grid img:hover {
+    transform: translateY(-10px);
+}
+
 .row {
   overflow: auto;
   width: 100%;
