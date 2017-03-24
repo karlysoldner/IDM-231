@@ -39,6 +39,7 @@ width: 1px;
 
 #allpics .plate{
   opacity: 1!important;
+  
   z-index: -1;
 }
 
