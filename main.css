@@ -70,7 +70,8 @@ p.intro {
 }
  
 input {
-  padding: 7px;
+  padding: .5rem;
+  margin: .5rem;
   background: rgba(253, 237, 159,.5);
   color: #617F25;
   text-align: center;

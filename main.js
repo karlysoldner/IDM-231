@@ -494,7 +494,7 @@ document.getElementById("results").innerHTML= "<img src=\"everythingbagel.png\" 
     if(checker != 0 )
     {
  
-    var cat = new Audio('frenchtoast.mp3');
+    var cat = new Audio('bagel.wav');
     cat.play();
     }
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
