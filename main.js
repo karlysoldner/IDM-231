@@ -19,6 +19,12 @@ for (lp = 0; lp < imgArray.length; lp++)
         imgArray[lp].classList.remove('visible');
     }
 }
+
+function formReset() { 
+    document.getElementById('bday').value="";
+}
+
+
 function calZodiac() {
     firstName = document.getElementById('fname').value;
     //lastName = document.getElementById('lname').value;
@@ -126,8 +132,22 @@ function gridClickBacon() {
     document.getElementById("results").innerHTML= "<img src=\"bacon.png\" style=\"width:200px; z-index: 1; position: absolute; padding-top: 50px; padding-left:90px\" alt=\"bacon\" class=\"bacon\">";
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     document.getElementById("results").classList.add('visible');
-    var cat = new Audio('bacon.wav');
-    cat.play();
+    var audioCheck = document.getElementById("bday").value;
+
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+        var cat = new Audio('bacon.wav');
+        cat.play();
+    }
 
     var outputArea = document.getElementById('displayMsg');
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
@@ -151,8 +171,23 @@ function gridClickFrenchToast() {
     document.getElementById("results").innerHTML= "<img src=\"frenchtoast.png\" style=\"width:200px; z-index: 1; position: absolute; padding-top: 50px; padding-left:90px\" alt=\"toast\" class=\"toast\">";
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     document.getElementById("results").classList.add('visible');
-    var cat = new Audio('frenchtoast.mp3');
-    cat.play();
+        var audioCheck = document.getElementById("bday").value;
+
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
+         var cat = new Audio('frenchtoast.mp3');
+         cat.play();
+    }
     var outputArea = document.getElementById('displayMsg');
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
@@ -175,8 +210,23 @@ function gridClickOatmeal() {
     document.getElementById("results").innerHTML= "<img src=\"oatmeal.png\" style=\"width:200px; position: absolute; padding-top: 50px; padding-left:90px; z-index: 1;\" alt=\"oatmeal\" class=\"oatmeal\">";
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     document.getElementById("results").classList.add('visible');
+    var audioCheck = document.getElementById("bday").value;
+
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
     var cat = new Audio('oatmeal.wav');
     cat.play();
+    }
     var outputArea = document.getElementById('displayMsg');
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
@@ -199,8 +249,23 @@ function gridClickDonut() {
     document.getElementById("results").innerHTML= "<img src=\"donut.png\" style=\"width:200px; position: absolute; padding-top: 50px; padding-left:90px; z-index: 1;\" alt=\"donut\" class=\"donut\">";
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     document.getElementById("results").classList.add('visible');
-    var cat = new Audio('donut.wav');
-    cat.play();
+    var audioCheck = document.getElementById("bday").value;
+
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
+        var cat = new Audio('donut.wav');
+        cat.play();
+    }
     var outputArea = document.getElementById('displayMsg');
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
@@ -223,8 +288,22 @@ function gridClickPancakes() {
     document.getElementById("results").innerHTML= "<img src=\"pancakes.png\" style=\"width:200px; position: absolute; padding-top: 50px; padding-left:90px; z-index: 1;\" alt=\"pancakes\" class=\"pancakes\">";
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     document.getElementById("results").classList.add('visible');
-    var cat = new Audio('pancake.wav');
-    cat.play();
+    var audioCheck = document.getElementById("bday").value;
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
+        var cat = new Audio('pancake.wav');
+         cat.play();
+    }
     var outputArea = document.getElementById('displayMsg');
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
@@ -248,8 +327,22 @@ function gridClickScrambledEggs() {
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto;z-index: 0;\">"; 
     document.getElementById("results").classList.add('visible');
     var outputArea = document.getElementById('displayMsg');
-    var cat = new Audio('scrambledeggs.wav');
-    cat.play();
+    var audioCheck = document.getElementById("bday").value;
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
+        var cat = new Audio('scrambledeggs.wav');
+        cat.play();
+    }
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
 
@@ -272,8 +365,22 @@ document.getElementById("results").innerHTML= "<img src=\"avocadotoast.png\" sty
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">";     
     AstroSign = "Virgo and your breakfast personality is avocado toast. You are a classy and cool person. Your insta is probably strong af and I wouldn't be shocked if there was a brunch pic or two in there. Remember to pick up a book instead of a blog now and then.";
     var outputArea = document.getElementById('displayMsg');
-    var cat = new Audio('ping.wav');
-    cat.play();
+    var audioCheck = document.getElementById("bday").value;
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+        {
+ 
+        var cat = new Audio('ping.wav');
+        cat.play();
+    }
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
 
@@ -296,8 +403,22 @@ function gridClickWaffle() {
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">";     
     AstroSign = "Libra and your breakfast personality is blueberry waffles. You are balanced. You understand when to have fun and when to work hard. When to go running and when to pizza binge. You're adept in social situations, yet are comfortable alone. You get it. I wish I could be like you.";
     var outputArea = document.getElementById('displayMsg');
-    var cat = new Audio('waffle.wav');
-    cat.play();
+    var audioCheck = document.getElementById("bday").value;
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
+        var cat = new Audio('waffle.wav');
+        cat.play();
+    }
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
 
@@ -320,8 +441,22 @@ function gridClickCoffee() {
 document.getElementById("results").innerHTML= "<img src=\"coffeecigarette.png\" style=\"width:200px; position: absolute; padding-top: 50px; padding-left:90px; z-index: 1;\" alt=\"coffee and a cigarette\" class=\"coffeecigarette\">";
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     AstroSign = "Scorpio and your breakfast personality is coffee and a cigarette. Yes, you are cool. Yes your art/blog/photography/whatever project you're really focusing on is good. But someday you're gonna need a job that pays so do yourself a favor and start thinking more long-term.";
+    var audioCheck = document.getElementById("bday").value;
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
     var cat = new Audio('coffee.wav');
     cat.play();
+    }
     var outputArea = document.getElementById('displayMsg');
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
@@ -346,8 +481,22 @@ document.getElementById("results").innerHTML= "<img src=\"everythingbagel.png\" 
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     AstroSign = "Sagittarius and your breakfast personality is an everything bagel. People call you quirky and unique, but they all know you are interesting. You struggle to make close friends because you don't connect with people on a deep level. Go out of your way to really try and like a few people. It's worth it.";
     var outputArea = document.getElementById('displayMsg');
+    var audioCheck = document.getElementById("bday").value;
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
     var cat = new Audio('frenchtoast.mp3');
     cat.play();
+    }
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 
 }
@@ -372,8 +521,22 @@ document.getElementById("results").innerHTML= "<img src=\"cereal.png\" style=\"w
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     AstroSign = "Gemini and your breakfast personality is cereal. You know that song by The Kinks called 'A Well Respected Man'? That song is about you, but not in a bad way. You're a meticulous person, but not a boring one.";
     var outputArea = document.getElementById('displayMsg');
+    var audioCheck = document.getElementById("bday").value;
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
     var cat = new Audio('cereal.wav');
     cat.play();
+    }
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
 
@@ -397,7 +560,22 @@ document.getElementById("results").innerHTML= "<img src=\"pizza.png\" style=\"wi
     document.getElementById("results").innerHTML+= "<img id=\"plate\" src=\"plate.png\" alt=\"plate\" class=\"plate\" style=\"height: 300px; width: auto; z-index: 0;\">"; 
     AstroSign = "Leo and your breakfast personality is cold leftover pizza. Let's face it. You're a mess. You probably sleep way too much or not enough. And you probably are behind on a bill or two. You need to break the cycle. Pay a bill, clean your bathroom, call your mom. Go on!";
     var outputArea = document.getElementById('displayMsg');
+            var audioCheck = document.getElementById("bday").value;
+
+    var audioArr = audioCheck.split('-');
+    var checker = 0;
+    for( i =0; i < audioArr.length; i++)
+    {
+        if(!isNaN(audioArr[i]) && audioArr[0].substring(0,1) != "0")
+        {
+            checker++;
+        }
+    }
+    if(checker != 0 )
+    {
+ 
     var cat = new Audio('pizza.wav');
     cat.play();
+    }
     outputArea.innerHTML = ' Your zodiac sign is ' + AstroSign;
 }
